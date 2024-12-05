@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
 
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
 
+=======
+>>>>>>> 01d0dd3a73190499418607706a3e23dc97614ae9
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
     "useDefineForClassFields": true,
@@ -26,7 +29,16 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+<<<<<<< HEAD
     "noUncheckedSideEffectImports": true
+=======
+    "noUncheckedSideEffectImports": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+>>>>>>> 01d0dd3a73190499418607706a3e23dc97614ae9
   },
   "include": ["src"]
 }
